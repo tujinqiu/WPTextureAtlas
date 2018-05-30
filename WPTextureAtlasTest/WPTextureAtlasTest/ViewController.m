@@ -8,11 +8,14 @@
 
 #import "ViewController.h"
 #import <SpriteKit/SpriteKit.h>
+#import "WPTextureAtlas.h"
 
 @interface ViewController ()
 
 @property(nonatomic, strong) SKView *skView;
 @property(nonatomic, strong) SKScene *skScene;
+@property(nonatomic, strong) SKSpriteNode *testNode;
+@property(nonatomic, strong) WPTextureAtlas *textureAtlas;
 
 @end
 
@@ -38,7 +41,12 @@
 
 - (void)showAnimation
 {
-    
+    [self.skScene addChild:self.testNode];
+    self.testNode.zPosition = 1;
+    self.testNode.position = CGPointMake(self.skScene.size.width / 2, self.skScene.size.height / 2);
+    SKAction *action = [SKAction animateWithTextures:self.textureAtlas.sortTexturesArr timePerFrame:1.0 / 30];
+    action = [SKAction repeatActionForever:action];
+    [self.testNode runAction:action];
 }
 
 - (SKView *)skView
@@ -66,6 +74,25 @@
     }
     
     return _skScene;
+}
+
+- (SKSpriteNode *)testNode
+{
+    if (!_testNode) {
+        _testNode = [[SKSpriteNode alloc] initWithTexture:self.textureAtlas.sortTexturesArr.firstObject];
+    }
+    
+    return _testNode;
+}
+
+- (WPTextureAtlas *)textureAtlas
+{
+    if (!_textureAtlas) {
+        NSString *plistFile = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"plist"];
+        _textureAtlas = [[WPTextureAtlas alloc] initWithPlistFile:plistFile imageFile:@"test"];
+    }
+    
+    return _textureAtlas;
 }
 
 @end

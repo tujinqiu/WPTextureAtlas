@@ -35,7 +35,7 @@
     NSDictionary *framesDict = dict[@"frames"];
     NSMutableDictionary *texturesDict = [NSMutableDictionary new];
     [framesDict enumerateKeysAndObjectsUsingBlock:^(NSString * _Nonnull key, NSDictionary * _Nonnull obj, BOOL * _Nonnull stop) {
-        WPTexture *texture = [[WPTexture alloc] initWithDict:obj totalTexture:self.totalTexture];
+        WPTexture *texture = [WPTexture textureWithDict:obj totalTexture:self.totalTexture];
         [texturesDict setObject:texture forKey:key];
     }];
     _texturesDict = texturesDict.copy;

@@ -8,27 +8,34 @@
 
 #import "WPTexture.h"
 
+@interface WPTexture ()
+
+@property(nonatomic, assign, readwrite) CGPoint spriteOffset;
+@property(nonatomic, assign, readwrite) CGSize spriteSize;
+@property(nonatomic, assign, readwrite) CGSize spriteSourceSize;
+@property(nonatomic, assign, readwrite) BOOL textureRotated;
+
+@end
+
 @implementation WPTexture
 
-- (instancetype)initWithDict:(NSDictionary *)dict
-                totalTexture:(SKTexture *)totalTexture
++ (instancetype)textureWithDict:(NSDictionary *)dict
+                   totalTexture:(SKTexture *)totalTexture
 {
-    if (self = [super init]) {
-        _spriteOffset = CGPointFromString(dict[@"spriteOffset"]);
-        _spriteSize = CGSizeFromString(dict[@"spriteSize"]);
-        _spriteSourceSize = CGSizeFromString(dict[@"spriteSourceSize"]);
-        CGRect rect = CGRectFromString(dict[@"textureRect"]);
-        CGFloat x = rect.origin.x / totalTexture.size.width;
-        CGFloat y = rect.origin.x / totalTexture.size.height;
-        CGFloat w = rect.size.width / totalTexture.size.width;
-        CGFloat h = rect.size.height / totalTexture.size.height;
-        _textureRect = CGRectMake(x, y, w, h);
-        _textureRotated = [dict[@"textureRotated"] boolValue];
-        
-        _texture = [SKTexture textureWithRect:_textureRect inTexture:totalTexture];
-    }
+    CGRect rect = CGRectFromString(dict[@"textureRect"]);
+    CGFloat x = rect.origin.x / totalTexture.size.width;
+    CGFloat y = rect.origin.x / totalTexture.size.height;
+    CGFloat w = rect.size.width / totalTexture.size.width;
+    CGFloat h = rect.size.height / totalTexture.size.height;
     
-    return self;
+    WPTexture *texture = [WPTexture textureWithRect:CGRectMake(x, y, w, h) inTexture:totalTexture];
+    
+    texture.spriteOffset = CGPointFromString(dict[@"spriteOffset"]);
+    texture.spriteSize = CGSizeFromString(dict[@"spriteSize"]);
+    texture.spriteSourceSize = CGSizeFromString(dict[@"spriteSourceSize"]);
+    texture.textureRotated = [dict[@"textureRotated"] boolValue];
+    
+    return texture;
 }
 
 @end
