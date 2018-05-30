@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CB66F9A20BEFB5F001D4708 /* WPSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB66F9920BEFB5F001D4708 /* WPSpriteNode.m */; };
 		E301102920BE7AFC00EAE739 /* WPTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = E301102720BE7AFC00EAE739 /* WPTexture.m */; };
 		E301102C20BE7B1E00EAE739 /* WPTextureAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = E301102B20BE7B1E00EAE739 /* WPTextureAtlas.m */; };
 		E301103720BEA52600EAE739 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = E301103520BEA52600EAE739 /* test.png */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9CB66F9820BEFB5F001D4708 /* WPSpriteNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPSpriteNode.h; sourceTree = "<group>"; };
+		9CB66F9920BEFB5F001D4708 /* WPSpriteNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPSpriteNode.m; sourceTree = "<group>"; };
 		E301102720BE7AFC00EAE739 /* WPTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTexture.m; sourceTree = "<group>"; };
 		E301102820BE7AFC00EAE739 /* WPTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTexture.h; sourceTree = "<group>"; };
 		E301102A20BE7B1E00EAE739 /* WPTextureAtlas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPTextureAtlas.h; sourceTree = "<group>"; };
@@ -56,6 +59,8 @@
 				E301102B20BE7B1E00EAE739 /* WPTextureAtlas.m */,
 				E301102820BE7AFC00EAE739 /* WPTexture.h */,
 				E301102720BE7AFC00EAE739 /* WPTexture.m */,
+				9CB66F9820BEFB5F001D4708 /* WPSpriteNode.h */,
+				9CB66F9920BEFB5F001D4708 /* WPSpriteNode.m */,
 			);
 			name = WPTextureAtlas;
 			path = ../../WPTextureAtlas;
@@ -173,6 +178,7 @@
 				E368CD3720BD818B0067DCEC /* main.m in Sources */,
 				E301102920BE7AFC00EAE739 /* WPTexture.m in Sources */,
 				E368CD2920BD81890067DCEC /* AppDelegate.m in Sources */,
+				9CB66F9A20BEFB5F001D4708 /* WPSpriteNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
