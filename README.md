@@ -1,0 +1,2 @@
+# WPTextureAtlas
+SpriteKit读取TexturePacker导出的纹理集
