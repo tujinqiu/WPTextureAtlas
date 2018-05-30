@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E368CD0720BD811F0067DCEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E368CD0620BD811F0067DCEC /* AppDelegate.m */; };
-		E368CD0A20BD811F0067DCEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E368CD0920BD811F0067DCEC /* ViewController.m */; };
-		E368CD0D20BD811F0067DCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E368CD0B20BD811F0067DCEC /* Main.storyboard */; };
-		E368CD0F20BD81230067DCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E368CD0E20BD81230067DCEC /* Assets.xcassets */; };
-		E368CD1220BD81230067DCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E368CD1020BD81230067DCEC /* LaunchScreen.storyboard */; };
-		E368CD1520BD81230067DCEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E368CD1420BD81230067DCEC /* main.m */; };
+		E368CD2920BD81890067DCEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E368CD2820BD81890067DCEC /* AppDelegate.m */; };
+		E368CD2C20BD81890067DCEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E368CD2B20BD81890067DCEC /* ViewController.m */; };
+		E368CD2F20BD81890067DCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E368CD2D20BD81890067DCEC /* Main.storyboard */; };
+		E368CD3120BD818B0067DCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E368CD3020BD818B0067DCEC /* Assets.xcassets */; };
+		E368CD3420BD818B0067DCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E368CD3220BD818B0067DCEC /* LaunchScreen.storyboard */; };
+		E368CD3720BD818B0067DCEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E368CD3620BD818B0067DCEC /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E368CD0220BD811F0067DCEC /* WPTextureAtlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPTextureAtlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E368CD0520BD811F0067DCEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E368CD0620BD811F0067DCEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E368CD0820BD811F0067DCEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E368CD0920BD811F0067DCEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E368CD0C20BD811F0067DCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E368CD0E20BD81230067DCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E368CD1120BD81230067DCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E368CD1320BD81230067DCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E368CD1420BD81230067DCEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E368CD2420BD81890067DCEC /* WPTextureAtlasTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPTextureAtlasTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E368CD2720BD81890067DCEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E368CD2820BD81890067DCEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E368CD2A20BD81890067DCEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E368CD2B20BD81890067DCEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E368CD2E20BD81890067DCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E368CD3020BD818B0067DCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E368CD3320BD818B0067DCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E368CD3520BD818B0067DCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E368CD3620BD818B0067DCEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E368CCFF20BD811F0067DCEC /* Frameworks */ = {
+		E368CD2120BD81890067DCEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E368CCF920BD811F0067DCEC = {
+		E368CD1B20BD81880067DCEC = {
 			isa = PBXGroup;
 			children = (
-				E368CD0420BD811F0067DCEC /* WPTextureAtlas */,
-				E368CD0320BD811F0067DCEC /* Products */,
+				E368CD2620BD81890067DCEC /* WPTextureAtlasTest */,
+				E368CD2520BD81890067DCEC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E368CD0320BD811F0067DCEC /* Products */ = {
+		E368CD2520BD81890067DCEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E368CD0220BD811F0067DCEC /* WPTextureAtlas.app */,
+				E368CD2420BD81890067DCEC /* WPTextureAtlasTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E368CD0420BD811F0067DCEC /* WPTextureAtlas */ = {
+		E368CD2620BD81890067DCEC /* WPTextureAtlasTest */ = {
 			isa = PBXGroup;
 			children = (
-				E368CD0520BD811F0067DCEC /* AppDelegate.h */,
-				E368CD0620BD811F0067DCEC /* AppDelegate.m */,
-				E368CD0820BD811F0067DCEC /* ViewController.h */,
-				E368CD0920BD811F0067DCEC /* ViewController.m */,
-				E368CD0B20BD811F0067DCEC /* Main.storyboard */,
-				E368CD0E20BD81230067DCEC /* Assets.xcassets */,
-				E368CD1020BD81230067DCEC /* LaunchScreen.storyboard */,
-				E368CD1320BD81230067DCEC /* Info.plist */,
-				E368CD1420BD81230067DCEC /* main.m */,
+				E368CD2720BD81890067DCEC /* AppDelegate.h */,
+				E368CD2820BD81890067DCEC /* AppDelegate.m */,
+				E368CD2A20BD81890067DCEC /* ViewController.h */,
+				E368CD2B20BD81890067DCEC /* ViewController.m */,
+				E368CD2D20BD81890067DCEC /* Main.storyboard */,
+				E368CD3020BD818B0067DCEC /* Assets.xcassets */,
+				E368CD3220BD818B0067DCEC /* LaunchScreen.storyboard */,
+				E368CD3520BD818B0067DCEC /* Info.plist */,
+				E368CD3620BD818B0067DCEC /* main.m */,
 			);
-			path = WPTextureAtlas;
+			path = WPTextureAtlasTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E368CD0120BD811F0067DCEC /* WPTextureAtlas */ = {
+		E368CD2320BD81890067DCEC /* WPTextureAtlasTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E368CD1820BD81230067DCEC /* Build configuration list for PBXNativeTarget "WPTextureAtlas" */;
+			buildConfigurationList = E368CD3A20BD818B0067DCEC /* Build configuration list for PBXNativeTarget "WPTextureAtlasTest" */;
 			buildPhases = (
-				E368CCFE20BD811F0067DCEC /* Sources */,
-				E368CCFF20BD811F0067DCEC /* Frameworks */,
-				E368CD0020BD811F0067DCEC /* Resources */,
+				E368CD2020BD81890067DCEC /* Sources */,
+				E368CD2120BD81890067DCEC /* Frameworks */,
+				E368CD2220BD81890067DCEC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WPTextureAtlas;
-			productName = WPTextureAtlas;
-			productReference = E368CD0220BD811F0067DCEC /* WPTextureAtlas.app */;
+			name = WPTextureAtlasTest;
+			productName = WPTextureAtlasTest;
+			productReference = E368CD2420BD81890067DCEC /* WPTextureAtlasTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E368CCFA20BD811F0067DCEC /* Project object */ = {
+		E368CD1C20BD81880067DCEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "tu jinqiu";
 				TargetAttributes = {
-					E368CD0120BD811F0067DCEC = {
+					E368CD2320BD81890067DCEC = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = E368CCFD20BD811F0067DCEC /* Build configuration list for PBXProject "WPTextureAtlas" */;
+			buildConfigurationList = E368CD1F20BD81880067DCEC /* Build configuration list for PBXProject "WPTextureAtlasTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,55 +113,55 @@
 				en,
 				Base,
 			);
-			mainGroup = E368CCF920BD811F0067DCEC;
-			productRefGroup = E368CD0320BD811F0067DCEC /* Products */;
+			mainGroup = E368CD1B20BD81880067DCEC;
+			productRefGroup = E368CD2520BD81890067DCEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E368CD0120BD811F0067DCEC /* WPTextureAtlas */,
+				E368CD2320BD81890067DCEC /* WPTextureAtlasTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E368CD0020BD811F0067DCEC /* Resources */ = {
+		E368CD2220BD81890067DCEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E368CD1220BD81230067DCEC /* LaunchScreen.storyboard in Resources */,
-				E368CD0F20BD81230067DCEC /* Assets.xcassets in Resources */,
-				E368CD0D20BD811F0067DCEC /* Main.storyboard in Resources */,
+				E368CD3420BD818B0067DCEC /* LaunchScreen.storyboard in Resources */,
+				E368CD3120BD818B0067DCEC /* Assets.xcassets in Resources */,
+				E368CD2F20BD81890067DCEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E368CCFE20BD811F0067DCEC /* Sources */ = {
+		E368CD2020BD81890067DCEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E368CD0A20BD811F0067DCEC /* ViewController.m in Sources */,
-				E368CD1520BD81230067DCEC /* main.m in Sources */,
-				E368CD0720BD811F0067DCEC /* AppDelegate.m in Sources */,
+				E368CD2C20BD81890067DCEC /* ViewController.m in Sources */,
+				E368CD3720BD818B0067DCEC /* main.m in Sources */,
+				E368CD2920BD81890067DCEC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E368CD0B20BD811F0067DCEC /* Main.storyboard */ = {
+		E368CD2D20BD81890067DCEC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E368CD0C20BD811F0067DCEC /* Base */,
+				E368CD2E20BD81890067DCEC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E368CD1020BD81230067DCEC /* LaunchScreen.storyboard */ = {
+		E368CD3220BD818B0067DCEC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E368CD1120BD81230067DCEC /* Base */,
+				E368CD3320BD818B0067DCEC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E368CD1620BD81230067DCEC /* Debug */ = {
+		E368CD3820BD818B0067DCEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		E368CD1720BD81230067DCEC /* Release */ = {
+		E368CD3920BD818B0067DCEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,35 +279,35 @@
 			};
 			name = Release;
 		};
-		E368CD1920BD81230067DCEC /* Debug */ = {
+		E368CD3B20BD818B0067DCEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2536D3J6MP;
-				INFOPLIST_FILE = WPTextureAtlas/Info.plist;
+				INFOPLIST_FILE = WPTextureAtlasTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wepie.WPTextureAtlas;
+				PRODUCT_BUNDLE_IDENTIFIER = wepie.WPTextureAtlasTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E368CD1A20BD81230067DCEC /* Release */ = {
+		E368CD3C20BD818B0067DCEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2536D3J6MP;
-				INFOPLIST_FILE = WPTextureAtlas/Info.plist;
+				INFOPLIST_FILE = WPTextureAtlasTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wepie.WPTextureAtlas;
+				PRODUCT_BUNDLE_IDENTIFIER = wepie.WPTextureAtlasTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,25 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E368CCFD20BD811F0067DCEC /* Build configuration list for PBXProject "WPTextureAtlas" */ = {
+		E368CD1F20BD81880067DCEC /* Build configuration list for PBXProject "WPTextureAtlasTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E368CD1620BD81230067DCEC /* Debug */,
-				E368CD1720BD81230067DCEC /* Release */,
+				E368CD3820BD818B0067DCEC /* Debug */,
+				E368CD3920BD818B0067DCEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E368CD1820BD81230067DCEC /* Build configuration list for PBXNativeTarget "WPTextureAtlas" */ = {
+		E368CD3A20BD818B0067DCEC /* Build configuration list for PBXNativeTarget "WPTextureAtlasTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E368CD1920BD81230067DCEC /* Debug */,
-				E368CD1A20BD81230067DCEC /* Release */,
+				E368CD3B20BD818B0067DCEC /* Debug */,
+				E368CD3C20BD818B0067DCEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E368CCFA20BD811F0067DCEC /* Project object */;
+	rootObject = E368CD1C20BD81880067DCEC /* Project object */;
 }
