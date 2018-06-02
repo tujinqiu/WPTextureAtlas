@@ -2,7 +2,7 @@
 //  WPSpriteNode.h
 //  WPTextureAtlasTest
 //
-//  Created by tu on 2018/5/30.
+//  Created by tu jinqiu on 2018/6/2.
 //  Copyright © 2018年 tu jinqiu. All rights reserved.
 //
 

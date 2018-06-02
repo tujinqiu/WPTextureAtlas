@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CB66F9A20BEFB5F001D4708 /* WPSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB66F9920BEFB5F001D4708 /* WPSpriteNode.m */; };
 		E301102920BE7AFC00EAE739 /* WPTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = E301102720BE7AFC00EAE739 /* WPTexture.m */; };
 		E301102C20BE7B1E00EAE739 /* WPTextureAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = E301102B20BE7B1E00EAE739 /* WPTextureAtlas.m */; };
-		E301103720BEA52600EAE739 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = E301103520BEA52600EAE739 /* test.png */; };
-		E301103820BEA52600EAE739 /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = E301103620BEA52600EAE739 /* test.plist */; };
+		E30110E520C25EF400EAE739 /* WPSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E30110E420C25EF400EAE739 /* WPSpriteNode.m */; };
+		E30110E820C25F3100EAE739 /* test1.plist in Resources */ = {isa = PBXBuildFile; fileRef = E30110E620C25F3100EAE739 /* test1.plist */; };
+		E30110E920C25F3100EAE739 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = E30110E720C25F3100EAE739 /* test1.png */; };
+		E30110F420C26F0A00EAE739 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = E30110F220C26F0A00EAE739 /* test.png */; };
+		E30110F520C26F0A00EAE739 /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = E30110F320C26F0A00EAE739 /* test.plist */; };
+		E301110020C2BF5700EAE739 /* huaban.png in Resources */ = {isa = PBXBuildFile; fileRef = E30110FC20C2BF5600EAE739 /* huaban.png */; };
+		E301110120C2BF5700EAE739 /* huaban1.png in Resources */ = {isa = PBXBuildFile; fileRef = E30110FD20C2BF5700EAE739 /* huaban1.png */; };
+		E301110220C2BF5700EAE739 /* huaban1.plist in Resources */ = {isa = PBXBuildFile; fileRef = E30110FE20C2BF5700EAE739 /* huaban1.plist */; };
+		E301110320C2BF5700EAE739 /* huaban.plist in Resources */ = {isa = PBXBuildFile; fileRef = E30110FF20C2BF5700EAE739 /* huaban.plist */; };
 		E368CD2920BD81890067DCEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E368CD2820BD81890067DCEC /* AppDelegate.m */; };
 		E368CD2C20BD81890067DCEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E368CD2B20BD81890067DCEC /* ViewController.m */; };
 		E368CD2F20BD81890067DCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E368CD2D20BD81890067DCEC /* Main.storyboard */; };
@@ -21,14 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9CB66F9820BEFB5F001D4708 /* WPSpriteNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPSpriteNode.h; sourceTree = "<group>"; };
-		9CB66F9920BEFB5F001D4708 /* WPSpriteNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPSpriteNode.m; sourceTree = "<group>"; };
 		E301102720BE7AFC00EAE739 /* WPTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTexture.m; sourceTree = "<group>"; };
 		E301102820BE7AFC00EAE739 /* WPTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTexture.h; sourceTree = "<group>"; };
 		E301102A20BE7B1E00EAE739 /* WPTextureAtlas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPTextureAtlas.h; sourceTree = "<group>"; };
 		E301102B20BE7B1E00EAE739 /* WPTextureAtlas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPTextureAtlas.m; sourceTree = "<group>"; };
-		E301103520BEA52600EAE739 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
-		E301103620BEA52600EAE739 /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
+		E30110E320C25EF400EAE739 /* WPSpriteNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPSpriteNode.h; sourceTree = "<group>"; };
+		E30110E420C25EF400EAE739 /* WPSpriteNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPSpriteNode.m; sourceTree = "<group>"; };
+		E30110E620C25F3100EAE739 /* test1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test1.plist; sourceTree = "<group>"; };
+		E30110E720C25F3100EAE739 /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
+		E30110F220C26F0A00EAE739 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		E30110F320C26F0A00EAE739 /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
+		E30110FC20C2BF5600EAE739 /* huaban.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huaban.png; sourceTree = "<group>"; };
+		E30110FD20C2BF5700EAE739 /* huaban1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huaban1.png; sourceTree = "<group>"; };
+		E30110FE20C2BF5700EAE739 /* huaban1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = huaban1.plist; sourceTree = "<group>"; };
+		E30110FF20C2BF5700EAE739 /* huaban.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = huaban.plist; sourceTree = "<group>"; };
 		E368CD2420BD81890067DCEC /* WPTextureAtlasTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPTextureAtlasTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E368CD2720BD81890067DCEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E368CD2820BD81890067DCEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,8 +71,8 @@
 				E301102B20BE7B1E00EAE739 /* WPTextureAtlas.m */,
 				E301102820BE7AFC00EAE739 /* WPTexture.h */,
 				E301102720BE7AFC00EAE739 /* WPTexture.m */,
-				9CB66F9820BEFB5F001D4708 /* WPSpriteNode.h */,
-				9CB66F9920BEFB5F001D4708 /* WPSpriteNode.m */,
+				E30110E320C25EF400EAE739 /* WPSpriteNode.h */,
+				E30110E420C25EF400EAE739 /* WPSpriteNode.m */,
 			);
 			name = WPTextureAtlas;
 			path = ../../WPTextureAtlas;
@@ -90,8 +102,14 @@
 				E368CD2820BD81890067DCEC /* AppDelegate.m */,
 				E368CD2A20BD81890067DCEC /* ViewController.h */,
 				E368CD2B20BD81890067DCEC /* ViewController.m */,
-				E301103620BEA52600EAE739 /* test.plist */,
-				E301103520BEA52600EAE739 /* test.png */,
+				E30110E620C25F3100EAE739 /* test1.plist */,
+				E30110E720C25F3100EAE739 /* test1.png */,
+				E30110F320C26F0A00EAE739 /* test.plist */,
+				E30110F220C26F0A00EAE739 /* test.png */,
+				E30110FF20C2BF5700EAE739 /* huaban.plist */,
+				E30110FC20C2BF5600EAE739 /* huaban.png */,
+				E30110FE20C2BF5700EAE739 /* huaban1.plist */,
+				E30110FD20C2BF5700EAE739 /* huaban1.png */,
 				E368CD2D20BD81890067DCEC /* Main.storyboard */,
 				E368CD3020BD818B0067DCEC /* Assets.xcassets */,
 				E368CD3220BD818B0067DCEC /* LaunchScreen.storyboard */,
@@ -159,10 +177,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E368CD3420BD818B0067DCEC /* LaunchScreen.storyboard in Resources */,
+				E301110220C2BF5700EAE739 /* huaban1.plist in Resources */,
+				E301110320C2BF5700EAE739 /* huaban.plist in Resources */,
 				E368CD3120BD818B0067DCEC /* Assets.xcassets in Resources */,
 				E368CD2F20BD81890067DCEC /* Main.storyboard in Resources */,
-				E301103820BEA52600EAE739 /* test.plist in Resources */,
-				E301103720BEA52600EAE739 /* test.png in Resources */,
+				E30110E820C25F3100EAE739 /* test1.plist in Resources */,
+				E301110020C2BF5700EAE739 /* huaban.png in Resources */,
+				E30110E920C25F3100EAE739 /* test1.png in Resources */,
+				E30110F420C26F0A00EAE739 /* test.png in Resources */,
+				E30110F520C26F0A00EAE739 /* test.plist in Resources */,
+				E301110120C2BF5700EAE739 /* huaban1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +202,7 @@
 				E368CD3720BD818B0067DCEC /* main.m in Sources */,
 				E301102920BE7AFC00EAE739 /* WPTexture.m in Sources */,
 				E368CD2920BD81890067DCEC /* AppDelegate.m in Sources */,
-				9CB66F9A20BEFB5F001D4708 /* WPSpriteNode.m in Sources */,
+				E30110E520C25EF400EAE739 /* WPSpriteNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

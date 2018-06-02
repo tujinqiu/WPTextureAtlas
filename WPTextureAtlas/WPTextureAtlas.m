@@ -22,6 +22,11 @@
     return self;
 }
 
+- (WPTexture *)textureWithName:(NSString *)name
+{
+    return self.texturesDict[name];
+}
+
 - (void)setup
 {
     _totalTexture = [SKTexture textureWithImage:[UIImage imageNamed:_imageFile]];

@@ -4,363 +4,273 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>box_yaobai_00000.png</key>
+            <key>01_00000.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{1,1},{260,260}}</string>
+                <string>{{1,1},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00001.png</key>
+            <key>01_00001.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{1,1},{260,260}}</string>
+                <string>{{1,603},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00002.png</key>
+            <key>01_00002.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{1,1},{260,260}}</string>
+                <string>{{1,1205},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00003.png</key>
+            <key>01_00003.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{263,1},{260,260}}</string>
+                <string>{{303,1},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00004.png</key>
+            <key>01_00004.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{525,1},{260,260}}</string>
+                <string>{{303,603},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00005.png</key>
+            <key>01_00005.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{787,1},{260,260}}</string>
+                <string>{{303,1205},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00006.png</key>
+            <key>01_00006.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{1,263},{260,260}}</string>
+                <string>{{605,1},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00007.png</key>
+            <key>01_00007.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{263,263},{260,260}}</string>
+                <string>{{907,1},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00008.png</key>
+            <key>01_00008.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{525,263},{260,260}}</string>
+                <string>{{1209,1},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00009.png</key>
+            <key>01_00009.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{787,263},{260,260}}</string>
+                <string>{{1511,1},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00010.png</key>
+            <key>01_00010.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{1,525},{260,260}}</string>
+                <string>{{605,603},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00011.png</key>
+            <key>01_00011.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{263,525},{260,260}}</string>
+                <string>{{605,1205},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00012.png</key>
+            <key>01_00012.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{525,525},{260,260}}</string>
+                <string>{{907,603},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00013.png</key>
+            <key>01_00013.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{787,525},{260,260}}</string>
+                <string>{{907,1205},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00014.png</key>
+            <key>01_00014.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{1,787},{260,260}}</string>
+                <string>{{1209,603},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00015.png</key>
+            <key>01_00015.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{1,1049},{260,260}}</string>
+                <string>{{1511,603},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00016.png</key>
+            <key>01_00016.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{1,1311},{260,260}}</string>
+                <string>{{1209,1205},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>box_yaobai_00017.png</key>
+            <key>01_00017.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>spriteSourceSize</key>
-                <string>{260,260}</string>
+                <string>{300,600}</string>
                 <key>textureRect</key>
-                <string>{{263,787},{260,260}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
-            <key>box_yaobai_00018.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,0}</string>
-                <key>spriteSize</key>
-                <string>{260,260}</string>
-                <key>spriteSourceSize</key>
-                <string>{260,260}</string>
-                <key>textureRect</key>
-                <string>{{525,787},{260,260}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
-            <key>box_yaobai_00019.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,0}</string>
-                <key>spriteSize</key>
-                <string>{260,260}</string>
-                <key>spriteSourceSize</key>
-                <string>{260,260}</string>
-                <key>textureRect</key>
-                <string>{{787,787},{260,260}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
-            <key>box_yaobai_00020.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,0}</string>
-                <key>spriteSize</key>
-                <string>{260,260}</string>
-                <key>spriteSourceSize</key>
-                <string>{260,260}</string>
-                <key>textureRect</key>
-                <string>{{263,1049},{260,260}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
-            <key>box_yaobai_00021.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,0}</string>
-                <key>spriteSize</key>
-                <string>{260,260}</string>
-                <key>spriteSourceSize</key>
-                <string>{260,260}</string>
-                <key>textureRect</key>
-                <string>{{263,1311},{260,260}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
-            <key>box_yaobai_00022.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,0}</string>
-                <key>spriteSize</key>
-                <string>{260,260}</string>
-                <key>spriteSourceSize</key>
-                <string>{260,260}</string>
-                <key>textureRect</key>
-                <string>{{525,1049},{260,260}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
-            <key>box_yaobai_00023.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,0}</string>
-                <key>spriteSize</key>
-                <string>{260,260}</string>
-                <key>spriteSourceSize</key>
-                <string>{260,260}</string>
-                <key>textureRect</key>
-                <string>{{787,1049},{260,260}}</string>
+                <string>{{1511,1205},{300,600}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -374,13 +284,13 @@
             <key>premultiplyAlpha</key>
             <false/>
             <key>realTextureFileName</key>
-            <string>test1.png</string>
+            <string>testHuban.png</string>
             <key>size</key>
-            <string>{1048,1572}</string>
+            <string>{1812,1806}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:10c4bd37f80138dfd7f8cef532a95af7:efb0b2cc76dfb6e366400344fbce93df:1e4243132e2cc643f6d225e7942b8f2e$</string>
+            <string>$TexturePacker:SmartUpdate:bb2d6e3c72624a4ac3a9417a821255b0:e1fd36412fa1e69c82191f8e8ad75234:c943024810c30a3823e0c771e426946f$</string>
             <key>textureFileName</key>
-            <string>test1.png</string>
+            <string>testHuban.png</string>
         </dict>
     </dict>
 </plist>

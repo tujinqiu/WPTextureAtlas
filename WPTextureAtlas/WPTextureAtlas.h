@@ -20,4 +20,6 @@
 - (instancetype)initWithPlistFile:(NSString *)plistFile
                         imageFile:(NSString *)imageFile;
 
+- (WPTexture *)textureWithName:(NSString *)name;
+
 @end
